@@ -31,3 +31,6 @@ logs/
 # Build
 build/
 dist/
+
+#properties
+demo/src/main/resources/application.properties
