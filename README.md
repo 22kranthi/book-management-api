@@ -46,18 +46,31 @@ src/main/java/com/example/demo/
 git clone https://github.com/YOUR_USERNAME/book-management-api.git
 cd book-management-api
 ```
+2. Configure Environment Variables
 
-2. Build the project
+Copy the example configuration:
+
+```bash
+cp src/main/resources/application.properties.example src/main/resources/application.properties
+```
+
+Update the database username and password in the new file.
+
+
+> Note: The original `application.properties` file is excluded from GitHub for security reasons.
+
+3. Build the project
 ```bash
 mvn clean install
 ```
 
-3. Run the application
+4. Run the application
 ```bash
 mvn spring-boot:run
 ```
 
 The API will be available at `http://localhost:8080`
+
 
 ## API Endpoints
 
