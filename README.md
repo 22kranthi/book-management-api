@@ -8,7 +8,7 @@ A professional Spring Boot REST API for managing books with complete CRUD operat
 - ✅ Search by title, author, price range
 - ✅ Input validation (email, patterns, ranges)
 - ✅ Global exception handling
-- ✅ H2 in-memory database
+- ✅ MySQL Database
 - ✅ Professional layered architecture
 - ✅ Proper HTTP status codes
 
@@ -16,7 +16,7 @@ A professional Spring Boot REST API for managing books with complete CRUD operat
 
 - **Framework:** Spring Boot 3.5.14
 - **Language:** Java 17
-- **Database:** H2 (in-memory)
+- **Database:** MySQL
 - **Build Tool:** Maven
 - **API Testing:** Postman / Insomnia
 
